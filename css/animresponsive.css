@@ -1,0 +1,289 @@
+        body
+        {
+            padding: 0px;
+            margin: 0px;
+            
+        }
+        .main
+        {
+           padding: 0px;
+           margin: 0px;
+           height: 100vh;
+           width: 100vw;
+           background-image:url("../img/n5.jpg");
+           background-repeat: no-repeat;
+           background-size:100% 100%;
+           
+           background-position: center;
+        }
+        
+        .main img:nth-child(1)
+        {
+            height: 20%;
+            width:18%;
+            position: absolute;
+            top: 10px;
+            left: 30vw;
+           
+        }
+        .main img:nth-child(2)
+        {
+            height:20%;
+            width:18%;
+            position: absolute;
+            top: -10px;
+            right: 0px;
+            animation:bird 4s ease-in-out  infinite;
+        }
+        .btf
+        {
+            width:100%;
+            bottom:28%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end; 
+            
+            padding-right:10%;
+            padding-left:8%;
+            
+        }
+        
+            
+        
+        .btf img:nth-child(1)
+        {
+            width: 7%;
+            height: 7%;
+            animation:btrfly 10s ease-in-out  infinite;
+            
+            
+        }
+         .btf img:nth-child(2)
+        {
+            width: 30%;
+            height: 30%;
+            animation:btrfly3 13s ease-in-out  infinite; 
+            
+        }
+        .btf img:nth-child(3)
+        {
+            width: 30%;
+            height: 30%;
+            animation:btrfly4 15s ease-in-out  infinite; 
+            
+        }
+         
+        .btf img:nth-child(4)
+        {
+            width: 5%;
+            height: 5%;
+            animation:btrfly2 11s ease-in-out  infinite; 
+        }
+
+          @keyframes btrfly 
+        {
+            0%
+            {
+                transform:translate(5vw,-50vh);
+                
+               
+                
+            }
+            25%
+            {
+                
+                transform:translate(20vw,-85vh);
+            }
+            50%
+            {
+               
+                transform:translate(45vw,-80vh);
+                
+                
+            }
+            75%
+            {
+               
+                transform:translate(66vw,-73vh);
+            }
+            100%
+            {
+                
+                transform:translate(66vw,-73vh);
+            }
+        } 
+
+        @keyframes btrfly2 
+        {
+            0%
+            {
+                transform:translate(-10vw,-40vh);
+                
+            }
+            25%
+            {
+                transform:translate(-30vw,-75vh);
+            }
+            50%
+            {
+                
+                transform:translate(-50vw,-100vh);
+                
+            }
+            75%
+            {
+                
+                transform:translate(-60vw,-85vh);
+            }
+            100%
+            {
+                
+                transform:translate(-70vw,-80vh);
+            }
+        } 
+
+        @keyframes btrfly3
+        {
+            0%
+            {
+                transform:translate(-5vw,-40vh);
+                
+            }
+            25%
+            {
+                transform:translate(-10vw,-75vh);
+            }
+            50%
+            {
+                
+                transform:translate(-30vw,-95vh);
+                
+            }
+            75%
+            {
+                
+                transform:translate(-28vw,-90vh);
+            }
+            100%
+            {
+                
+                transform:translate(-28vw,-90vh);
+            }
+        } 
+
+        
+        @keyframes btrfly4 
+        {
+            0%
+            {
+                transform:translate(3vw,-20vh);
+                
+               
+                
+            }
+            25%
+            {
+                
+                transform:translate(7vw,-50vh);
+            }
+            50%
+            {
+               
+                transform:translate(3vw,-55vh);
+                
+                
+            }
+            75%
+            {
+               
+                transform:translate(4vw,-55vh);
+            }
+            100%
+            {
+                
+                transform:translate(4vw,-55vh);
+            }
+        }  
+
+
+        @keyframes bird 
+        {
+            0%
+            {
+                transform:translate(-10vw,10vh);
+                
+               
+                
+            }
+            25%
+            {
+                
+                transform:translate(-20vw,5vh);
+            }
+            50%
+            {
+               
+                transform:translate(-45vw,10vh);
+                
+                
+            }
+            75%
+            {
+               
+                transform:translate(-52vw,5vh);
+            }
+            100%
+            {
+                
+                transform:translate(-52vw,5vh);
+            }
+        } 
+
+        
+        
+       @media (max-width:1536) 
+       {
+           .main
+           {
+            background-image:url("../img/n5-80.jpg");
+           }
+       }
+       @media (max-width:1152) 
+       {
+            .main
+            {
+            background-image:url("../img/n5-60.jpg");
+            }
+       }
+   
+       @media (max-width:768) 
+       {
+            .main
+            {
+            background-image:url("../img/n5-40.jpg");
+            }
+       }
+       @media (max-width:576) 
+       {
+            .main
+            {
+            background-image:url("../img/n5-30.jpg");
+            }
+       }
+       @media (max-width:426) 
+       {
+            .main
+            {
+            background-image:url("../img/n5-22.jpg");
+            }
+       }
+       @media (max-width:346) 
+       {
+            .main
+            {
+            background-image:url("../img/n5-18.jpg");
+            }
+       }
+   
+       
+         
